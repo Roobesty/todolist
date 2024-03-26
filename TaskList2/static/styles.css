@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #dff0ff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.add-task-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.add-task-link:hover {
+    background-color: #0056b3;
+}
+
+.sorting-dropdown {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sorting-dropdown select {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sorting-dropdown select:hover {
+    background-color: #0056b3;
+}
+
+.delete-button {
+    margin-left: auto;
+    order: 3;
+}
+
+.fa-check {
+    color: rgba(0, 0, 255, 0.2);
+}
+
+.completed-task {
+    opacity: 0.5;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
